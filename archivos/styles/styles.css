@@ -223,8 +223,8 @@ h4 {
   top        : 0;
   height     : var(--header-height);
   width      : 100%;
-  background : var(--white-color);
-  box-shadow : 0 3px 5px rgba(112, 126, 132, 0.1);
+  background : #006efaff;
+  box-shadow : 0 3px 5px rgb(0, 191, 255);
   z-index    : var(--z-fixed);
 }
 
@@ -329,7 +329,7 @@ h4 {
 }
 
 .main-menu a:hover {
-  color : var(--primary-color);
+  color : #f00000;
 }
 
 @media screen and (max-width: 1024px) {
