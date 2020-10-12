@@ -426,6 +426,7 @@ h4 {
 
 /* ----- SERVICIOS ----- */
 
+
 .services-section h2 {
   margin-bottom : var(--block-spacing);
 }
@@ -451,11 +452,12 @@ h4 {
   text-align     : center;
   max-width      : 300px;
   margin         : 0 auto;
+  color          : black;
 }
 
 .service-item .jam {
   margin-bottom : 1rem;
-  color         : var(--primary-color);
+  color         : red;
   font-size     : 4rem;
 }
 
