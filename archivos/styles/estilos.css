@@ -1,0 +1,13 @@
+.dark-color {
+    background-color: rgb(27, 36, 48);
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    color: red;
+    font-size: 2.8rem;
+}
+
+.description {
+    color: white;
+}
