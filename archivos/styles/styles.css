@@ -16,7 +16,7 @@
   --max-width : 1200px;
 
   /*  Colores  */
-  --primary-color     : #2A8BF4;
+  --primary-color     : #150aaf;
   --primary-color-alt : #035DBF;
   --title-color       : #121F26;
   --text-color        : #676F73;
@@ -445,6 +445,8 @@ h4 {
 
 }
 
+
+
 .service-item {
   display        : flex;
   flex-direction : column;
@@ -474,7 +476,7 @@ h4 {
 .about-section {
   position   : relative;
   padding    : var(--block-spacing) 0;
-  background : var(--primary-color);
+  background : rgb(204, 2, 2);
   color      : var(--white-color);
   text-align : center;
 }
@@ -816,3 +818,6 @@ h4 {
   overflow      : hidden;
   border-radius : var(--border-radius);
 }
+
+
+
