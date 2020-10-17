@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(190, 3, 3);
+}
+
+h1 {
+    font-size: 2.3em;
+    text-align: center;
+    color: wheat;
+}
+
+h4 {
+    color: rgb(43, 226, 52);
+}
+
+.adres-contacto {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+address {
+    text-align: center;
+}
+
+.comunicaciones {
+    color: rgb(0, 225, 255);
+}
+
+.texte-description {
+    color: white;
+}
