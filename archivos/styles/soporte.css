@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(173, 169, 169);
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2.6em;
+}
+
+
+.contact {
+    font-size: 1.1em;
+    text-align: center;
+    color: red;
+}
+
+
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2em;
+}
+
+
+.coment{
+    text-align: center;
+    font-size: 1.1em;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    h1, h2 {
+        font-size: 1.5em;
+    }
+}

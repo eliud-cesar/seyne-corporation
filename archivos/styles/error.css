@@ -1,0 +1,46 @@
+body {
+    background-image: url(../../images/error-404/error-404.png);
+    background-repeat: no-repeat;
+    background-position-x: 15.7em;
+    background-position-y: 5em;
+    background-color: black;
+}
+
+.imagen-error {
+    width: 8%;
+    margin: 20em 0 0 38.5em ;
+}
+
+.system {
+    color: wheat;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.buttom {
+    background-color: black;
+    text-align: center;
+}
+
+.volver {
+    color: red;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    text-decoration: dotted;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-image: url(../../images/error-404/android-error-404.png) no-repeat;
+        background-position-x: -16em;
+        background-position-y: 2em;
+    }
+
+    .imagen-error{
+        width: 25%;
+        margin: 20em 0 0 8em;
+    }
+}
