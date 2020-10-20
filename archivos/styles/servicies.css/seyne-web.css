@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(173, 169, 169);
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 2.2em;
+    margin: 20px 0 0 0;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    font-size: 2em;
+}
+
+section > p {
+    /* font-size: 1.2em; */
+    color: black;
+    text-align: center;
+    margin: 0 30px;
+}
+
+
+.dudas {
+    color: green;
+    text-decoration: none;
+}
+
+.sub-title{
+    text-decoration: none;
+    color: blue;
+    font-size: 1.3em;
+}
+
+.precio-web {
+    font-weight: bold;
+    color: brown;
+}
+
+.buttom {
+    display: block;
+    text-align: center;
+    
+}
+
+.servicio-domicilio {
+    background-color: wheat;
+    padding: 5px;
+    margin: 0 0 10em 0;
+    font-size: 1.2em;
+    border-radius: 10px;
+    text-decoration: none;
+    color: green;
+}
