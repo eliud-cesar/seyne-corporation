@@ -1,0 +1,79 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(173, 169, 169);
+}
+
+.titulo {
+    font-size: 3em;
+    margin-left: 40px;
+}
+
+.boton {
+    margin: 2em 0 0 13em;
+}
+
+.mini-title {
+    margin: 4em 4em 0 3em;
+}
+
+h3 {
+    color: red;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+section > p {
+    color: whitesmoke;
+    margin: 1em 30px;
+}
+
+.pagin {
+    text-align: center;
+}
+
+.list-pat {
+    color: royalblue;
+    text-align: center;
+}
+
+.indice {
+    color: cyan;
+}
+
+main > h2 {
+    color: red;
+    text-align: center;
+    font-size: 2.4em;
+}
+
+main > dl {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+main {
+    margin-bottom: 2em;
+}
+
+@media (max-width: 600px) {
+    .titulo {
+        margin: 0;
+    }
+
+    .mini-title{
+        margin: 1em 0 0 0;
+    }
+
+    section > p {
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .boton{
+        margin: 2em 0;
+    }
+}

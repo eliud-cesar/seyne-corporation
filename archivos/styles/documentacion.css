@@ -1,0 +1,31 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    color: blue;
+}
+
+body {
+    background-color: rgb(173, 169, 169);
+}
+
+.title-documentacion {
+    margin: -20px 0 0 0;
+}
+
+.descripccion {
+    color: whitesmoke;
+    font-weight: initial;
+    font-size: .93em;
+}
+
+.siglas {
+    color: red;
+    font-weight: bolder;
+}
+
+.services {
+    color: red;
+    text-decoration: none;
+}
