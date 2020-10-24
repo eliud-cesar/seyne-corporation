@@ -2,11 +2,18 @@
     background-color: rgb(168, 88, 88);
 } */
 
+* {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.seyne-s {
+    font-family: 'Syne Mono', monospace;
+}
+
 
 
 .dark-color {
     background-color: rgb(12, 44, 85);
-    font-family: 'Poppins', sans-serif;
 }
 
 .title-2{

@@ -1,9 +1,14 @@
 * {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
+.seyne-s {
+    font-family: 'Syne Mono', monospace;
+}
+
+
 body {
-    background-color: rgb(173, 169, 169);
+    background-color: rgb(138, 135, 135);
 }
 
 .titulo {
@@ -36,7 +41,8 @@ section > p {
 }
 
 .list-pat {
-    color: royalblue;
+    color: black;
+    font-weight: bolder;
     text-align: center;
 }
 
@@ -59,6 +65,16 @@ main {
     margin-bottom: 2em;
 }
 
+
+.icon-blog-1 {
+    width: 3.5%;
+    margin-left: 1em;
+    display: inline;
+}
+
+
+/* responsive web disenig para celulares */
+
 @media (max-width: 600px) {
     .titulo {
         margin: 0;
@@ -75,5 +91,9 @@ main {
 
     .boton{
         margin: 2em 0;
+    }
+
+    .icon-blog-1 {
+        width: 9%;
     }
 }
