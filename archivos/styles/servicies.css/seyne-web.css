@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(173, 169, 169);
+    background-color: rgb(202, 202, 202);
 }
 
 
@@ -33,19 +33,16 @@ section > p {
 
 
 .dudas {
-    color: green;
+    color: rgb(167, 4, 4);
     text-decoration: none;
+    margin: 1em 0;
 }
 
 .sub-title{
     text-decoration: none;
     color: blue;
     font-size: 1.3em;
-}
-
-.precio-web {
-    font-weight: bold;
-    color: brown;
+    margin: 1em 0;
 }
 
 .buttom {
@@ -62,4 +59,14 @@ section > p {
     border-radius: 10px;
     text-decoration: none;
     color: green;
+}
+
+.parrafo-juntos {
+    margin: 1em 0;
+}
+
+.comunicaciones {
+    color: rgb(27, 27, 27);
+    font-size: 1em;
+    margin: 0 0 1em 2em;
 }
