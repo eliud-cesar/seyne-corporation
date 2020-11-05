@@ -8,7 +8,7 @@
 
 
 body {
-    background-color: rgb(138, 135, 135);
+    background-color: #FAFDFF;
 }
 
 .titulo {
@@ -17,27 +17,32 @@ body {
 }
 
 .boton {
-    margin: 2em 0 0 13em;
+    margin: 4em 0 0 13em;
 }
 
 .mini-title {
-    margin: 4em 4em 0 3em;
+    margin: 1em 4em 0 3em;
 }
 
 h3 {
-    color: red;
+    color: #FF2419;
     font-size: 1.5em;
     text-align: center;
     margin-top: 1em;
 }
 
 section > p {
-    color: whitesmoke;
+    color: #53575A;
     margin: 1em 30px;
 }
 
 .pagin {
     text-align: center;
+    text-decoration: none;
+}
+
+.pagin:hover {
+    text-decoration: none;
 }
 
 .list-pat {
@@ -47,7 +52,11 @@ section > p {
 }
 
 .indice {
-    color: cyan;
+    color: #282D31;
+}
+
+.indice:hover {
+    text-decoration: none;
 }
 
 main > h2 {

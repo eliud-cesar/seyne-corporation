@@ -7,14 +7,19 @@
 }
 
 body {
-    background-color: rgb(173, 169, 169);
+    background-color: #FAFDFF;
 
 }
 
 h1 {
-    color: red;
+    color: #53575A;
+    font-size: 2.4rem;
 }
 
 .link-blog {
-    color: rgb(16, 13, 196);
+    color: #007BDF;
+}
+
+.card-project {
+    border: 1px solid #DFE0E0;
 }

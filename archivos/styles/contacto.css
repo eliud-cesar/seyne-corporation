@@ -7,17 +7,18 @@
 }
 
 body {
-    background-color: rgb(190, 3, 3);
+    background-color: #FF2419;
 }
 
 h1 {
     font-size: 2.3em;
     text-align: center;
-    color: wheat;
+    color:#141618;
+    margin-top: 8px;
 }
 
 h4 {
-    color: rgb(43, 226, 52);
+    color: #014883;
 }
 
 .adres-contacto {
@@ -31,9 +32,13 @@ address {
 }
 
 .comunicaciones {
-    color: rgb(0, 225, 255);
+    color: #DFE0E0;
+}
+
+.comunicaciones:hover {
+    text-decoration: none;
 }
 
 .texte-description {
-    color: white;
+    color: #DFE0E0;
 }

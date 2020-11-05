@@ -7,9 +7,12 @@
 }
 
 body {
-    background-color: rgb(173, 169, 169);
+    background-color: #FAFDFF;
 }
 
+h1, h2 {
+    color: #141618;
+}
 
 h1 {
     text-align: center;
@@ -21,14 +24,22 @@ h1 {
 .contact {
     font-size: 1.1em;
     text-align: center;
-    color: red;
+    color: #53575A;
 }
 
+.contact:hover {
+    text-decoration: none;
+}
 
+.salto-de-linea {
+    margin-top: 2em;
+    background-color: #FF3C32;
+    height: 1px;
+}
 
 h2 {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 1em;
     font-size: 2em;
 }
 
@@ -36,7 +47,7 @@ h2 {
 .coment{
     text-align: center;
     font-size: 1.1em;
-    color: white;
+    color: #53575A;
 }
 
 @media (max-width: 600px) {

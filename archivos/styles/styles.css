@@ -20,7 +20,7 @@
   --primary-color-alt : #035DBF;
   --title-color       : #121F26;
   --text-color        : #676F73;
-  --body-bg-color     : #FAFDFF;
+  --body-bg-color     : #FAFDFF; 
   --white-color       : #ffffff;
   --color             : var(--primary-color);
   --color-alt         : var(--primary-color-alt);
@@ -193,6 +193,7 @@ h4 {
 
 .button:hover {
   background : var(--color-alt);
+  text-decoration: none;
 }
 
 .button.white {
@@ -212,8 +213,9 @@ h4 {
 }
 
 .button.ghost.white:hover {
-  color      : var(--primary-color);
-  background : var(--color);
+  /* color      : var(--color); */
+  background : #282D31;
+  text-decoration: none;
 }
 
 /*  ----- MENÚ PRINCIPAL -----  */
@@ -329,7 +331,8 @@ h4 {
 }
 
 .main-menu a:hover {
-  color : #f00000;
+  color : #DFE0E0;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -454,12 +457,12 @@ h4 {
   text-align     : center;
   max-width      : 300px;
   margin         : 0 auto;
-  color          : black;
+  color          : #53575A;
 }
 
 .service-item .jam {
   margin-bottom : 1rem;
-  color         : red;
+  color         : #FF2419;
   font-size     : 4rem;
 }
 
@@ -476,7 +479,7 @@ h4 {
 .about-section {
   position   : relative;
   padding    : var(--block-spacing) 0;
-  background : rgb(204, 2, 2);
+  background : #fc2519;
   color      : var(--white-color);
   text-align : center;
 }
@@ -551,7 +554,7 @@ h4 {
   text-decoration : none;
   border-radius   : var(--border-radius);
   box-shadow      : var(--box-shadow);
-  background      : var(--primary-color);
+  background      : #036cc2;
   overflow        : hidden;
 }
 

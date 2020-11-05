@@ -1,23 +1,22 @@
-/* body{
-    background-color: rgb(168, 88, 88);
-} */
-
 * {
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-.seyne-s {
+/* .seyne-s {
     font-family: 'Syne Mono', monospace;
+} */
+
+
+section > h2 {
+    color: #444749;
 }
 
-
-
 .dark-color {
-    background-color: rgb(12, 44, 85);
+    background-color: #04355e;
 }
 
 .title-2{
-    color: red;
+    color: #FF2419;
     font-size: 2.8rem;
 }
 
@@ -28,6 +27,15 @@
 .documentacion {
     text-decoration: none;
 }
+
+.item-title {
+    color: #007BDF;
+}
+
+.item-title:hover {
+    text-decoration: none;
+}
+
 
 
 
@@ -45,7 +53,7 @@
 
 
 .footer-distributed {
-    background-color: #072192;
+    background-color: rgb(10, 89, 194);
     box-shadow: 0 1px 1px 0 #292c2f;
     box-sizing: border-box;
     width: 100%;
@@ -55,7 +63,7 @@
 }
 
 .footer-distributed .footer-left p {
-    color: #8f9296;
+    color: #9c9c9c;
     font-size: 14px;
     margin: 0;
 }
@@ -64,7 +72,7 @@
 .footer-distributed p.footer-links {
     font-size: 18px;
     font-weight: bold;
-    color: #ffffff;
+    color: #e0d8d8;
     margin: 0 0 10px;
     padding: 0;
     transition: ease .25s;
@@ -82,7 +90,7 @@
     content: "·";
     font-size: 20px;
     left: 0;
-    color: #fff;
+    color:#e0d8d8;
     display: inline-block;
     padding-right: 5px;
 }
@@ -101,7 +109,7 @@
     display: inline-block;
     width: 35px;
     height: 35px;
-    background-color: #072192;
+    background-color: rgb(10, 89, 194);
     border-radius: 2px;
     font-size: 20px;
     color: #ffffff;
@@ -111,9 +119,11 @@
     transition:all .25s;
 }
 
+
 .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
 
-.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+.footer-distributed p.footer-links a:hover{text-decoration:none;}
+
 
 /* Media Queries */
 

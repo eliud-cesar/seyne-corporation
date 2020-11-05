@@ -7,10 +7,8 @@
 }
 
 body{
-    background-color: rgb(226, 226, 226);
+    background-color: #FAFDFF;
 }
-
-
 
 article {
     margin: 17px auto;
@@ -26,19 +24,20 @@ article {
 }
 
 h1 {
-    color: red;
+    margin-top: 1em;
+    color: #53575A;
     text-align: center;
     font-size: 2em;
 }
 
 .descripcion-images {
     text-align: center;
-    color: rgb(5, 5, 5);
+    color: #53575A;
     font-size: 1em;
 }
 
 
 .paypaldona {
-    width: 10em;
+    width: 8em;
     margin: 3px auto;
 }
