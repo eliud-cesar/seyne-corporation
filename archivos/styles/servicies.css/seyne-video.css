@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(173, 169, 169);
+    background-color: #FAFDFF;
 }
 
 
@@ -16,19 +16,13 @@ h1 {
     color: red;
     text-align: center;
     font-size: 2.2em;
-    margin: 20px 0 0 0;
+    margin: 20px 0 8px 0;
 }
 
-h2 {
-    color: red;
-    text-align: center;
-    font-size: 2em;
-}
 
 section > p {
     /* font-size: 1.2em; */
-    color: black;
-    text-align: center;
+    color: #53575A;
     margin: 0 30px;
 }
 
@@ -40,13 +34,14 @@ section > p {
 
 .sub-title{
     text-decoration: none;
-    color: blue;
-    font-size: 1.3em;
+    color: #006DC6;
+    font-size: 1.2em;
+    text-align: center;
 }
 
 .precio-web {
     font-weight: bold;
-    color: brown;
+    color: black;
 }
 
 .buttom {
@@ -55,27 +50,35 @@ section > p {
     margin-bottom: 1em;
 }
 
-.servicio-domicilio {
-    background-color: wheat;
-    padding: 5px;
-    margin: 0 0 10em 12px;
-    font-size: 1.2em;
-    border-radius: 10px;
+.button {
+    background-color: #FF2419;
+    color: #FAFDFF;
+}
+
+.button:hover {
+    background-color: #282D31;
+    color: #DFE0E0;
+}
+
+
+.deta {
+    text-align: center;
+}
+.data {
+    margin: 5px 0 0 30px;
+}
+
+.comunicaciones {
+    color: #53575A;
+    margin: 20px 0 0 30px;
+}
+
+.cursos-edteam:hover {
     text-decoration: none;
-    color: green;
 }
 
-.p {
-    text-align: center;
-    color: black;
-    text-align: center;
-    margin: 0 30px;
-}
-
-ul {
-    color: white;
-    margin-left: 36.5em;
-    margin-top: 14px;
+.cursos-edteam {
+    color: #06e637;
 }
 
 

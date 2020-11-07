@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(202, 202, 202);
+    background-color: #FAFDFF;
 }
 
 
@@ -15,7 +15,7 @@ h1 {
     color: red;
     text-align: center;
     font-size: 2.2em;
-    margin: 20px 0 0 0;
+    margin: 20px 0 1rem 0;
 }
 
 h2 {
@@ -25,9 +25,9 @@ h2 {
 }
 
 section > p {
-    /* font-size: 1.2em; */
-    color: black;
-    text-align: center;
+    font-size: 1em;
+    color: #53575A;
+    text-align: left;
     margin: 0 30px;
 }
 
@@ -38,10 +38,14 @@ section > p {
     margin: 1em 0;
 }
 
+.dudas:hover {
+    text-decoration: none;
+}
+
 .sub-title{
     text-decoration: none;
-    color: blue;
-    font-size: 1.3em;
+    color: #006DC6;
+    font-size: 1.2em;
     margin: 1em 0;
 }
 
@@ -51,6 +55,18 @@ section > p {
     margin-bottom: 1em;
 }
 
+.button {
+    background-color: #FF2419;
+    color: #FAFDFF;
+}
+
+.button:hover {
+    background-color: #282D31;
+    color: #DFE0E0;
+}
+
+
+/* 
 .servicio-domicilio {
     background-color: wheat;
     padding: 5px;
@@ -59,10 +75,11 @@ section > p {
     border-radius: 10px;
     text-decoration: none;
     color: green;
-}
+} */
 
 .parrafo-juntos {
     margin: 1em 0;
+    margin: 0 30px;
 }
 
 .comunicaciones {

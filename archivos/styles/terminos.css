@@ -6,8 +6,9 @@
     font-family: 'Syne Mono', monospace;
 }
 
-body{
-    background-color: rgb(173, 169, 169);
+
+body {
+    background-color: #FAFDFF;
 }
 
 h1 {
@@ -18,24 +19,30 @@ h1 {
 
 .imagen-termino {
     margin: auto;
-    width: 10%;
+    width: 7%;
+    margin-bottom: 10px;
 }
 
 dt {
-    color: rgb(22, 247, 228);
-    font-size: 1.5em;
+    color: #FF3C32;
+    font-size: 1.2em;
     text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 dd{
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 1.2em;
+    color: #53575A;
 }
 
 .vincular {
     text-decoration: none;
-    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    color: #F1A000;
+}
+
+.vincular:hover {
+    text-decoration: none;
 }
 
 
