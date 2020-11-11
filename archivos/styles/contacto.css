@@ -2,43 +2,54 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-.seyne-s {
+/* .seyne-s {
     font-family: 'Syne Mono', monospace;
-}
+} */
 
 body {
     background-color: #FF2419;
 }
 
+/* ....................................................... */
+
+
+
+
+
+
+/* MAIN */
+
+/* titulo de la pagina web */
 h1 {
     font-size: 2.3em;
     text-align: center;
     color:#141618;
     margin-top: 8px;
 }
-
+/* titulo de cada seccion */
 h4 {
     color: #014883;
 }
-
+/* toda la seccion de contacto */
+address {
+    text-align: center;
+}
+/* imagenes de las secciones */
 .adres-contacto {
     width: 3rem;
     height: 3rem;
 }
-
-
-address {
-    text-align: center;
-}
-
+/* link de telefono y correo */
 .comunicaciones {
     color: #DFE0E0;
 }
-
+/* link de telefono y correo en hover */
 .comunicaciones:hover {
     text-decoration: none;
 }
-
+/* descripccion */
 .texte-description {
     color: #DFE0E0;
 }
+
+/* --------------------- */

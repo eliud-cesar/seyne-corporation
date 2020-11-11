@@ -2,15 +2,21 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-.seyne-s {
+/* .seyne-s {
     font-family: 'Syne Mono', monospace;
-}
+} */
 
 body {
     background-color: #FAFDFF;
 }
 
+/* ..................................... */
 
+
+
+/* MAIN PLAN */
+
+/* titulo */
 h1 {
     color: red;
     text-align: center;
@@ -18,19 +24,12 @@ h1 {
     margin: 20px 0 8px 0;
 }
 
-
+/* precio de plan con su descripccion */
 section > p {
-    /* font-size: 1.2em; */
     color: black;
     margin: 0 30px;
 }
-
-
-.dudas {
-    color: green;
-    text-decoration: none;
-}
-
+/* tituto de las secciones */
 .sub-title{
     text-decoration: none;
     color: #006DC6;
@@ -38,9 +37,17 @@ section > p {
     text-align: center;
 }
 
+/* precion como tal */
 .precio-web {
     font-weight: bold;
 }
+/* -------------------------- */
+
+
+
+
+
+/* BOTOM DE PEDIR EL SERVICIO */
 
 .buttom {
     display: block;
@@ -57,8 +64,20 @@ section > p {
     background-color: #282D31;
     color: #DFE0E0;
 }
+/* -------------------- */
 
-.servicio-domicilio {
+
+
+
+
+/* DESCONOCIDO */
+
+/* .dudas {
+    color: green;
+    text-decoration: none;
+} */
+
+/* .servicio-domicilio {
     background-color: wheat;
     padding: 5px;
     margin: 0 0 10em 12px;
@@ -66,18 +85,20 @@ section > p {
     border-radius: 10px;
     text-decoration: none;
     color: green;
-}
+} */
 
-.p {
+/* .p {
     text-align: center;
     color: black;
     text-align: center;
     margin: 0 30px;
-}
+} */
 
-ul {
+/* ul {
     text-align: center;
     color: white;
     text-align: center;
     margin-top: 14px;
-}
+} */
+
+/* -------------------- */

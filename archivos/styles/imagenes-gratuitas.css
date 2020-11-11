@@ -2,20 +2,62 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-.seyne-s {
+/* .seyne-s {
     font-family: 'Syne Mono', monospace;
-}
+} */
 
 body{
     background-color: #FAFDFF;
 }
 
+/* .............................................. */
+
+
+
+
+
+
+/* BREVE DESCRIPCCION DE LA PAGINA WEB */
+
+/* titulo de la pagina web */
+h1 {
+    margin-top: 1em;
+    color: #53575A;
+    text-align: center;
+    font-size: 2em;
+}
+/* imagen de paypal para donacion */
+.paypaldona {
+    width: 8em;
+    margin: 3px auto;
+}
+
+/* --------------------------------- */
+
+
+
+
+/* IMAGENES */
+
+/* card's de las imagenes */
 article {
     margin: 17px auto;
     width: 60%;
     display: inline;
 }
+/* descripccion de las imagenes */
+.descripcion-images {
+    text-align: center;
+    color: #53575A;
+    font-size: 1em;
+}
 
+/* --------------------------------- */
+
+
+
+
+/* responsive web diseng para celulares */
 @media (max-width: 600px) {
     article {
         margin-top: 20px;
@@ -23,21 +65,3 @@ article {
     }
 }
 
-h1 {
-    margin-top: 1em;
-    color: #53575A;
-    text-align: center;
-    font-size: 2em;
-}
-
-.descripcion-images {
-    text-align: center;
-    color: #53575A;
-    font-size: 1em;
-}
-
-
-.paypaldona {
-    width: 8em;
-    margin: 3px auto;
-}

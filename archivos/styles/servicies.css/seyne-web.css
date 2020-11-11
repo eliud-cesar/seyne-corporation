@@ -2,53 +2,76 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-.seyne-s {
+/* .seyne-s {
     font-family: 'Syne Mono', monospace;
-}
+} */
 
 body {
     background-color: #FAFDFF;
 }
+/* ..................................... */
 
-
+/* TITULO DE LA PAGINA WEB */
 h1 {
     color: red;
     text-align: center;
     font-size: 2.2em;
     margin: 20px 0 1rem 0;
 }
+/* ------------------ */
 
-h2 {
-    color: red;
+
+
+
+/* MAIN PLAN */
+
+/* titulo de seccion */
+.sub-title{
+    text-decoration: none;
+    color: #006DC6;
+    font-size: 1.2em;
+    margin: 1em 0;
     text-align: center;
-    font-size: 2em;
 }
-
+/* descripccion */
 section > p {
     font-size: 1em;
     color: #53575A;
     text-align: left;
     margin: 0 30px;
 }
+/* descripccion sobre el plan de la web */
+.parrafo-juntos {
+    margin: 1em 0;
+    margin: 0 30px;
+}
+/* aplicaciones para la videollamada del pedido */
+.comunicaciones {
+    color: rgb(27, 27, 27);
+    font-size: 1em;
+    margin: 0 0 1em 2em;
+}
+/* -------------------------- */
 
 
+
+
+/* DUDAS DE LA WEB */
 .dudas {
     color: rgb(167, 4, 4);
     text-decoration: none;
     margin: 1em 0;
 }
-
 .dudas:hover {
     text-decoration: none;
 }
+/* ----------------------------- */
 
-.sub-title{
-    text-decoration: none;
-    color: #006DC6;
-    font-size: 1.2em;
-    margin: 1em 0;
-}
 
+
+
+
+/* BOTON DE IR A PEDIR EL SERVICIO */
 .buttom {
     display: block;
     text-align: center;
@@ -64,6 +87,11 @@ section > p {
     background-color: #282D31;
     color: #DFE0E0;
 }
+/* ------------------------------ */
+
+
+
+
 
 
 /* 
@@ -77,13 +105,4 @@ section > p {
     color: green;
 } */
 
-.parrafo-juntos {
-    margin: 1em 0;
-    margin: 0 30px;
-}
 
-.comunicaciones {
-    color: rgb(27, 27, 27);
-    font-size: 1em;
-    margin: 0 0 1em 2em;
-}

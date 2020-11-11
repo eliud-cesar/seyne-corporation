@@ -2,24 +2,30 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-.seyne-s {
+/* .seyne-s {
     font-family: 'Syne Mono', monospace;
-}
+} */
 
 body {
     background-color: #FAFDFF;
-
 }
+/* ........................................... */
 
+
+
+
+/* TITULO DE LA PAGINA WEB */
 h1 {
     color: #53575A;
     font-size: 2.4rem;
 }
 
+/* LINK PARA ENTRAR AL BLOG */
 .link-blog {
     color: #007BDF;
 }
 
+/* BORDER DEL CARD */
 .card-project {
     border: 1px solid #DFE0E0;
 }

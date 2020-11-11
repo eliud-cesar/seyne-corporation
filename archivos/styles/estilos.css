@@ -7,34 +7,56 @@
 } */
 
 
-section > h2 {
-    color: #444749;
-}
+/* ................................................... */
 
+
+/* BANNER PRINCIPAL */
+
+/* fondo azul */
 .dark-color {
     background-color: #04355e;
 }
-
+/* lema en grande */
 .title-2{
     color: #FF2419;
     font-size: 2.8rem;
 }
-
+/* lema en pequeño */
 .description {
     color: white;
 }
 
-.documentacion {
-    text-decoration: none;
-}
+/* ------------------------- */
 
+
+
+
+
+/* SERVICIOS DE SEYNE C. */
+
+/* titulo */
+section > h2 {
+    color: #444749;
+}
+/* titulo de services */
 .item-title {
     color: #007BDF;
 }
-
+/* hover de titulo de services */
 .item-title:hover {
     text-decoration: none;
 }
+/* -------------------------- */
+
+
+
+/* NO NECESARIO */
+
+/* .documentacion {
+    text-decoration: none;
+} */
+
+
 
 
 

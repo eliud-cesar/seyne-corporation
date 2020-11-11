@@ -2,36 +2,55 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-.seyne-s {
+/* .seyne-s {
     font-family: 'Syne Mono', monospace;
-}
+} */
 
 body {
     background-color: #FAFDFF;
 }
-
-h1, h2 {
-    color: #282D31;
-}
+/* ............................................. */
 
 
+/* MAIN */
+
+/* titulo de la pagina */
 h1 {
     text-align: center;
     margin-top: 10px;
     font-size: 2.6em;
 }
 
+/* titulos de la seccion */
+h1, h2 {
+    color: #282D31;
+}
 
+/* ------------------------------------------ */
+
+
+
+
+
+
+/* SOPORTE */
+
+/* contacto de numero de telefono */
 .contact {
     font-size: 1.1em;
     text-align: center;
     color: #53575A;
 }
-
+/* contacto de numero de telefono hover */
 .contact:hover {
     text-decoration: none;
 }
 
+/* ----------------------------------------------- */
+
+
+
+/* primer salto de linea */
 .salto-de-linea-1 {
     margin-top: 1em;
     margin-bottom: 1em;
@@ -39,42 +58,27 @@ h1 {
     height: 1px;
 }
 
-.salto-de-linea {
-    margin-top: 2em;
-    background-color: #ced1d1;
-    height: 1px;
-}
 
 
-h2 {
-    font-weight: normal;
-    text-align: center;
-    margin-top: 1em;
-    font-size: 1.5em;
-}
 
+/* REDES SOCIALES */
 
-.coment{
-    text-align: center;
-    font-size: 1.1em;
-    color: #53575A;
-}
-
+/* titulo de redes sociales */
 dl {
     color: #282D31;
     font-size: 1.5em;
     margin-top: 10px;
     text-align: center;
 }
-
+/* poner la seccion de redes sociales en el centro */
 .redes-sociales {
     text-align: center;
 }
-
+/* separacion de cada red entre ellas */
 .redes-sociales a{
     margin: 0 1em;
 }
-
+/* la imgen de redes sociales */
 .redes-social-media img{
     width: 4%;
     padding: 4px;
@@ -82,6 +86,40 @@ dl {
     border-radius: 10px;
 }
 
+/* ------------------------------------------------- */
+
+
+
+/* segundo salto de linea */
+.salto-de-linea {
+    margin-top: 2em;
+    background-color: #ced1d1;
+    height: 1px;
+}
+
+
+
+/* COMENTARIOS */
+
+/* las segundas secciones */
+h2 {
+    font-weight: normal;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+/* instrucciones de comentar */
+.coment{
+    text-align: center;
+    font-size: 1.1em;
+    color: #53575A;
+}
+
+/* --------------------- */
+
+
+
+/* responsive web diseng para celulares */
 
 @media (max-width: 600px) {
     h1, h2 {

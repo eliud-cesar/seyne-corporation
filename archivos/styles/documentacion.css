@@ -2,31 +2,40 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h2 {
-    color: #007BDF;
-}
-
 body {
     background-color: #FAFDFF;
 }
 
+/* ............................................... */
+
+
+/* DOCUMENTACION */
+
+/* titulo de la pagina web */
 .title-documentacion {
     margin: -20px 0 0 0;
     color: #282D31;
 }
 
+/* titulo de la seccion */
+h2 {
+    color: #007BDF;
+}
+/* descripccion de la seccion */
 .descripccion {
     color: #53575A;
     font-weight: initial;
     font-size: .93em;
 }
-
+/* siglas de SYC */
 .siglas {
     color: red;
     font-weight: bolder;
 }
-
+/* los 3 servicios de SYC */
 .services {
     color: red;
     text-decoration: none;
 }
+
+/* --------------------------------------------- */

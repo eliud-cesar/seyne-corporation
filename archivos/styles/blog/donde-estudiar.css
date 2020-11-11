@@ -2,84 +2,118 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-.seyne-s {
-    font-family: 'Syne Mono', monospace;
-}
-
-
 body {
     background-color: #FAFDFF;
 }
 
+/* .seyne-s {
+    font-family: 'Syne Mono', monospace;
+} */
+
+/* ............................................. */
+
+
+/* MAIN */
+
+/* margen de abajo */
+main {
+    margin-bottom: 2em;
+}
+/* --------------------------- */
+
+
+
+/* BANNER PRINCIPAL */
+
+/* titulo grande */
 .titulo {
     font-size: 3em;
     margin-left: 40px;
 }
-
+/* boton de banner */
 .boton {
     margin: 4em 0 0 13em;
 }
-
+/* descripccion de banner */
 .mini-title {
     margin: 1em 4em 0 3em;
 }
+/* ------------------------------ */
 
+
+
+/* INDICE */
+
+/* las secciones en indice */
+.indice {
+    color: #282D31;
+}
+/* las secciones en indice en hover */
+.indice:hover {
+    text-decoration: none;
+}
+/* titulo del indice */
+main > h2 {
+    color: red;
+    text-align: center;
+    font-size: 2.4em;
+}
+/* las secciones del indice */
+main > dl {
+    font-size: 1.1em;
+    text-align: center;
+} 
+/* ------------------------------------------- */
+
+
+
+/* BLOG MAIN */
+
+/* titulo de seccion */
 h3 {
     color: #FF2419;
     font-size: 1.5em;
     text-align: center;
     margin-top: 1em;
 }
-
+/* descripccion de seccion */
 section > p {
     color: #53575A;
     margin: 1em 30px;
 }
-
+/* vinculos de edteam & yoney gallardo */
 .pagin {
     text-align: center;
     text-decoration: none;
 }
-
+/* vinculos de edteam & yoney gallardo en hover */
 .pagin:hover {
     text-decoration: none;
 }
-
+/* secciones de donde estudiar */
 .list-pat {
     color: black;
     font-weight: bolder;
     text-align: center;
 }
-
-.indice {
-    color: #282D31;
-}
-
-.indice:hover {
-    text-decoration: none;
-}
-
-main > h2 {
-    color: red;
-    text-align: center;
-    font-size: 2.4em;
-}
-
-main > dl {
-    font-size: 1.1em;
-    text-align: center;
-}
-
-main {
-    margin-bottom: 2em;
-}
-
-
+/* iconos del titulo de la seccion */
 .icon-blog-1 {
     width: 3.5%;
     margin-left: 1em;
     display: inline;
 }
+/* -------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* responsive web disenig para celulares */

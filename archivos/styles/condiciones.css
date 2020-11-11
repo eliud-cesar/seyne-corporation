@@ -11,17 +11,22 @@ body {
     background-color: #FAFDFF;
 }
 
+/* ......................................................... */
+
+/* MAIN */
+
+/* titulo */
 h1 {
     color: #282D31;
     text-align: center;
     font-size: 2.5em;
 }
-
+/* iamgen de condiciones */
 .imagen-condi {
     width: 7%;
     margin: auto;
 }
-
+/* tituto de cada condiciones */
 dt {
     color: #FF3C32;
     font-size: 1.2em;
@@ -29,21 +34,21 @@ dt {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
+/* descripccion de la condicion */
 dd{
     color: #53575A;
     font-size: 1em;
 }
-
+/* vinculo de la pagina de negociar, 'esa pagina es la de comenzar en la principal' */
 .link-de {
     font-weight: bolder;
     color: #F1A000;
 }
-
 .link-de:hover {
     text-decoration: none;
 }
 
+/* ------------------------ */
 
 @media (max-width: 600px) {
     h1 {

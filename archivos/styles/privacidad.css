@@ -2,32 +2,32 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-.seyne-s {
+/* .seyne-s {
     font-family: 'Syne Mono', monospace;
-}
+} */
 
 body {
     background-color: #FAFDFF;
 }
+/* ................................................ */
 
 
+
+/* MAIN */
+
+/* titulo de la pagina web */
 h1 {
     font-size: 2.5em;
     text-align: center;
     margin-top: 20px;
 }
-
+/* imagenes de la privacidad de username */
 .vinculo-privacidad {
     width: 7%;
     margin: auto;
     margin-bottom: 20px;
 }
-
-
-.definicion {
-    margin-right: 2px;
-}
-
+/* titulo de cada seccion */
 dt {
     color: #FF3C32;
     font-size: 1.2em;
@@ -35,11 +35,20 @@ dt {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
+/* primer descripccion */
+.definicion {
+    margin-right: 2px;
+}
+/* descripccion */
 dd{
     color: #53575A;
 }
 
+/* ---------------------------- */
+
+
+
+/* responsive web diseng para celular */
 
 @media (max-width: 600px) {
     h1 {

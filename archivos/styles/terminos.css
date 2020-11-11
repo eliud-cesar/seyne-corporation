@@ -2,27 +2,31 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-.seyne-s {
+/* .seyne-s {
     font-family: 'Syne Mono', monospace;
-}
-
+} */
 
 body {
     background-color: #FAFDFF;
 }
+/* -------------------------------------------------------------- */
 
+
+/* MAIN DE TERMINOS */
+
+/* titulo de la pagina web */
 h1 {
     font-size: 2.5em;
     text-align: center;
     margin-top: 20px;
 }
-
+/* imagen de los terminos */
 .imagen-termino {
     margin: auto;
     width: 7%;
     margin-bottom: 10px;
 }
-
+/* titulo de casa terminos */
 dt {
     color: #FF3C32;
     font-size: 1.2em;
@@ -30,21 +34,26 @@ dt {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
+/* descripccion del termino */
 dd{
     color: #53575A;
 }
-
+/* vinculo hacia contacto */
 .vincular {
     text-decoration: none;
     font-weight: bolder;
     color: #F1A000;
 }
-
+/* vinculo hacia contacto en hover */
 .vincular:hover {
     text-decoration: none;
 }
 
+/* ------------------------------------ */
+
+
+
+/* responsive wen diseng para celulares */
 
 @media (max-width: 600px) {
     h1 {

@@ -2,36 +2,32 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-.seyne-s {
+/* .seyne-s {
     font-family: 'Syne Mono', monospace;
-}
+} */
 
 body {
     background-color: #FAFDFF;
 }
 
+/* ........................................... */
 
 
+
+/* MAIN PLAN */
+
+/* titulo */
 h1 {
     color: red;
     text-align: center;
     font-size: 2.2em;
     margin: 20px 0 8px 0;
 }
-
-
+/* parrafo */
 section > p {
-    /* font-size: 1.2em; */
-    color: #53575A;
     margin: 0 30px;
 }
-
-
-.dudas {
-    color: green;
-    text-decoration: none;
-}
-
+/* titulo de seccion */
 .sub-title{
     text-decoration: none;
     color: #006DC6;
@@ -39,10 +35,50 @@ section > p {
     text-align: center;
 }
 
+/* precio como tal */
 .precio-web {
     font-weight: bold;
     color: black;
 }
+/* -------------------------- */
+
+
+
+
+
+/* CURSO DE GRABAR CURSOS ONLINE DE EDTEAM */
+.cursos-edteam:hover {
+    text-decoration: none;
+}
+.cursos-edteam {
+    color: #06e637;
+}
+/* ------------------------------- */
+
+
+
+
+/* DUDAS */
+
+/* titulo */
+.deta {
+    text-align: center;
+}
+/* descripccion */
+.data {
+    margin: 5px 0 0 30px;
+}
+/* metodos donde se envian los videos */
+.comunicaciones {
+    color: #53575A;
+    margin: 20px 0 0 30px;
+}
+/* ----------------------- */
+
+
+
+
+/* BOTON DE IR A PEDIR EL SERVICIO */
 
 .buttom {
     display: block;
@@ -59,28 +95,26 @@ section > p {
     background-color: #282D31;
     color: #DFE0E0;
 }
+/* ------------------------------- */
 
 
-.deta {
-    text-align: center;
-}
-.data {
-    margin: 5px 0 0 30px;
-}
 
-.comunicaciones {
-    color: #53575A;
-    margin: 20px 0 0 30px;
-}
 
-.cursos-edteam:hover {
+
+/* DESCONOCIDO */
+
+/* .dudas {
+    color: green;
     text-decoration: none;
-}
+} */
 
-.cursos-edteam {
-    color: #06e637;
-}
+/* ----------------------- */
 
+
+
+
+
+/* RESPONSIVE WEB DISENG PARA CELULARES */
 
 @media (max-width: 600px) {
     ul{

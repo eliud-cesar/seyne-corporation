@@ -1,3 +1,5 @@
+
+/* fondo */
 body {
     background-image: url(../../images/error-404/error-404.png);
     background-repeat: no-repeat;
@@ -6,11 +8,13 @@ body {
     background-color: black;
 }
 
+/* imagen de S Y C */
 .imagen-error {
     width: 8%;
     margin: 20em 0 0 38.5em ;
 }
 
+/* descripccion del error 404 */
 .system {
     color: wheat;
     font-size: 1.2em;
@@ -18,11 +22,12 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+
+/* botom */
 .buttom {
     background-color: black;
     text-align: center;
 }
-
 .volver {
     color: red;
     text-align: center;
@@ -31,6 +36,9 @@ body {
     font-size: 1.5em;
     text-decoration: dotted;
 }
+
+
+/* responsive web diseng para celulares */
 
 @media (max-width: 600px) {
     body {
