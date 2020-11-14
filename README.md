@@ -4,11 +4,11 @@
 
 ### Buen día a todos..
 
-Esta es la web de S Y C
+This is the website of S-Y-C
 
 
 
 
 ****
 
-    Version 1.4.5   |  10 / 11 / 2020
+    Versión 1.5.0   |  13 / 11 / 2020 - last commit
