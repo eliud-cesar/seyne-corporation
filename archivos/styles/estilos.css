@@ -18,15 +18,21 @@
 }
 /* lema en grande */
 .title-2{
-    color: #FF2419;
+    color: whitesmoke;
     font-size: 2.8rem;
 }
 /* lema en pequeño */
 .description {
-    color: white;
+    color: #FF1C12;
 }
 
 /* ------------------------- */
+
+
+/* Ultimos proyectos */
+.image-container {
+    height: 100%;
+}
 
 
 

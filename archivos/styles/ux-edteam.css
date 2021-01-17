@@ -21,6 +21,12 @@ a {
   text-decoration: none;
 }
 
+/* .main-header  ul */
+
+/* li */
+
+.main-menu
+
 a:hover {
   text-decoration: underline;
 }
@@ -6276,7 +6282,7 @@ ol ol{
   list-style: none;
 }
 
-.ed-menu.m-horizontal li {
+/* .ed-menu.m-horizontal li {
   position: relative;
   list-style: none;
   -webkit-box-flex: 1;
@@ -6296,7 +6302,7 @@ ol ol{
   -webkit-box-flex: 1;
       -ms-flex: auto;
           flex: auto;
-}
+} */
 
 .ed-menu.m-horizontal  {
   display: none;
@@ -6406,7 +6412,7 @@ ol ol{
   list-style: none;
 }
 
-.ed-menu.l-horizontal li {
+/* .ed-menu.l-horizontal li {
   position: relative;
   list-style: none;
   -webkit-box-flex: 1;
@@ -6426,7 +6432,7 @@ ol ol{
   -webkit-box-flex: 1;
       -ms-flex: auto;
           flex: auto;
-}
+} */
 
 .ed-menu.l-horizontal {
   display: none;
@@ -7656,7 +7662,7 @@ pre.code-toolbar > .toolbar span:focus {
   Entra por la derecha justo debajo de main-header
 
 */
-.main-menu a:hover {
+/* .main-menu a:hover {
   text-decoration: none;
 }
 
@@ -7668,7 +7674,7 @@ pre.code-toolbar > .toolbar span:focus {
   .main-menu .active::before {
     display: none;
   }
-}
+} */
 
 body {
   position: relative;
@@ -7677,7 +7683,7 @@ body {
   transition: right .5s;
 }
 
-@media screen and (max-width: 1023px) {
+/* @media screen and (max-width: 1023px) {
   body.main-menu-visible {
     right: 80%;
     overflow-y: hidden;
@@ -7762,7 +7768,7 @@ body {
 
 .main-menu a {
   color: inherit;
-}
+} */
 
 @media screen and (max-width: 1023px) {
   .vertical-menu {
@@ -8399,7 +8405,7 @@ label + input::placeholder {
   border-color: var(--border-color) transparent transparent var(--border-color);
 }
 
-.post-header {
+/* .post-header {
   position: relative;
   margin-bottom: 2em;
 }
@@ -8427,7 +8433,7 @@ label + input::placeholder {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   color: #fff;
-}
+} */
 
 .post .author {
   display: table;
@@ -8472,7 +8478,7 @@ label + input::placeholder {
   position: relative;
 }
 
-.main-header {
+/* .main-header {
   height: var(--header-height);
   border-bottom: 1px solid var(--border-color);
   background: #FFF;
@@ -8500,7 +8506,7 @@ label + input::placeholder {
 
 .main-header--dark a {
   color: rgba(238, 238, 243, 0.5);
-}
+} */
 
 .main-footer {
   background: var(--dark-color);
