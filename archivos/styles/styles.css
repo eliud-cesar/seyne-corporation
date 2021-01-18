@@ -18,7 +18,7 @@
   /*  Colores  */
   --primary-color     : #150aaf;
   --primary-color-alt : #035DBF;
-  --title-color       : #121F26;
+  --title-color       : #e0d8d8;
   --text-color        : #676F73;
   --body-bg-color     : #FAFDFF; 
   --white-color       : #ffffff;
@@ -225,7 +225,9 @@ h4 {
   top        : 0;
   height     : var(--header-height);
   width      : 100%;
-  background : #006efaff;
+  background : #006DC6;
+  /* #006DC6
+  #006efaff */
   box-shadow : 0 3px 5px rgb(0, 191, 255);
   z-index    : var(--z-fixed);
 }
@@ -269,8 +271,10 @@ h4 {
   display         : flex;
   justify-content : center;
   align-items     : center;
+}
 
-
+.main-menu ul li a:hover {
+  color: #FAFDFF;
 }
 
 @media screen and (min-width: 1024px) {

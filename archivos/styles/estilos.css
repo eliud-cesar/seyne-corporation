@@ -7,14 +7,33 @@
 } */
 
 
+/* Tema light & dark */
+/* En proceso V.1.0 */
+:root {
+    --colorBanner: #04355e;
+    --colorFondo: #FAFDFF;
+    --colorTitulo: #444749;
+    --colorIconoServicios: #FF2419;
+}
+
+/* @media (prefers-color-scheme : dark) {
+    :root {
+        --colorBanner: red;
+    }
+} */
+
+
 /* ................................................... */
 
+body {
+    background-color: var(--colorFondo);
+}
 
 /* BANNER PRINCIPAL */
 
 /* fondo azul */
 .dark-color {
-    background-color: #04355e;
+    background-color: var(--colorBanner);
 }
 /* lema en grande */
 .title-2{
@@ -40,9 +59,13 @@
 
 /* SERVICIOS DE SEYNE C. */
 
+/* icono */
+.service-item .jam {
+    color: var(--colorIconoServicios);
+}
 /* titulo */
 section > h2 {
-    color: #444749;
+    color: var(--colorTitulo);
 }
 /* titulo de services */
 .item-title {
@@ -65,6 +88,46 @@ section > h2 {
 
 
 
+/* Boton de acceso directo al codigo fuente */
+
+/* importacion de la tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+/* styles de el contenido */
+.botonAccesoOpenSource {
+    position: fixed;
+    display: flex;
+    height: 60px;
+    bottom: 8rem;
+    right: 1rem;
+    background: #00BFF0;
+    justify-content: center;
+    border-radius: .25rem;
+    z-index: 1;
+}
+/* el contenido en hover, solo eso hasta el momento */
+.botonAccesoOpenSource:hover {
+background: #006DC6;
+border: 0.5px solid #00CBFF;
+}
+/* link, en esta version es todo el contenido te manda al resipotorio, en el otro 1.0 solo el enunciado se llevaba al repositorio. */
+.vinculoDelCodigo {
+text-decoration: none;
+}
+.vinculoDelCodigo:hover {
+    text-decoration: none;
+}
+/* item de el enunciado */
+.enunciado {
+padding: 1rem;
+}
+/* estilos de el enunciado */
+.enunciado p {
+font-family: 'Yusei Magic', sans-serif;
+color: white;
+font-size: 1.2rem;
+}
+
+
 
 
 
@@ -81,7 +144,7 @@ section > h2 {
 
 
 .footer-distributed {
-    background-color: rgb(10, 89, 194);
+    background-color: #006DC6;
     box-shadow: 0 1px 1px 0 #292c2f;
     box-sizing: border-box;
     width: 100%;
@@ -96,6 +159,10 @@ section > h2 {
     margin: 0;
 }
 /* Footer links */
+
+.footer-left .footer-links a:hover {
+    color: #FAFDFF;
+}
 
 .footer-distributed p.footer-links {
     font-size: 18px;
@@ -137,7 +204,7 @@ section > h2 {
     display: inline-block;
     width: 35px;
     height: 35px;
-    background-color: rgb(10, 89, 194);
+    background-color: #006DC6;
     border-radius: 2px;
     font-size: 20px;
     color: #ffffff;
