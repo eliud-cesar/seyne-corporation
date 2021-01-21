@@ -29,12 +29,12 @@ h2 {
 }
 /* siglas de SYC */
 .siglas {
-    color: red;
+    color: #FF3C32;
     font-weight: bolder;
 }
 /* los 3 servicios de SYC */
 .services {
-    color: red;
+    color: #00CBFF;
     text-decoration: none;
 }
 

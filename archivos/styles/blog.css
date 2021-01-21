@@ -7,12 +7,14 @@
 } */
 
 body {
-    background-color: #FAFDFF;
+    background-color: var(--colorFondo);
 }
 /* ........................................... */
 
 
-
+.card-project h3 {
+    color: var(--colorTitulo);
+}
 
 /* TITULO DE LA PAGINA WEB */
 h1 {
@@ -23,6 +25,11 @@ h1 {
 /* LINK PARA ENTRAR AL BLOG */
 .link-blog {
     color: #007BDF;
+}
+
+/* LINK DE BLOG EN HOVER */
+.link-blog:hover {
+    color: #FF3C32;
 }
 
 /* BORDER DEL CARD */

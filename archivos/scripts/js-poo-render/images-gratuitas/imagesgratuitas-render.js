@@ -2,7 +2,7 @@ import Imagenes from "./imagenes.js"
 
 
 
-const blog1 = new Imagenes("https://edteam-media.s3.amazonaws.com/courses/small/8f37ebcc-16a1-4001-93e1-5f21893cd3cc.jpg", "AK-47", "Creditos a armapedio por se un buen yotuber especializado en armeria", "../../../../images/images-gratis/ak47/ak47.zip", "Juanito alcachofa", "https://edteam-media.s3.amazonaws.com/courses/small/8f37ebcc-16a1-4001-93e1-5f21893cd3cc.jpg")
+const blog1 = new Imagenes("../../../../images/images-gratis/botella/Sin título.png", "AK-47", "Creditos a armapedio por se un buen yotuber especializado en armeria", "../../../../images/images-gratis/ak47/ak47.zip", "Juanito alcachofa", "https://edteam-media.s3.amazonaws.com/courses/small/8f37ebcc-16a1-4001-93e1-5f21893cd3cc.jpg")
 const blog2 = new Imagenes("https://edteam-media.s3.amazonaws.com/courses/small/1c0642f7-dd73-4f4c-9ce8-b8977aa18be1.jpg", "AK-47", "Creditos a armapedio por se un buen yotuber especializado en armeria", "../../../../images/images-gratis/ak47/ak47.zip", "Juanito alcachofa", "https://edteam-media.s3.amazonaws.com/courses/small/1c0642f7-dd73-4f4c-9ce8-b8977aa18be1.jpg")
 
 
@@ -19,7 +19,7 @@ function mostrarBlog(curso) {
     <div class="ed-grid m-grid-5 s-gap-2 m-pxy-2 s-bg-white s-radius-tl s-radius-tr">
     <!-- Contenedor de la imagen -->
     <div class="m-cols-2 img-container s-ratio-16-9 s-radius-tl s-radius-tr m-radius">
-        <img src="${curso.getMiniatura()} alt="${curso.getTitle()}">
+        <img src="${curso.getMiniatura()}" alt="${curso.getTitle()}">
         </div>
     <!-- Contenido -->
     <div class="s-pxy-2 m-pxy-0 m-cols-3">

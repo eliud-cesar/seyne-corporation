@@ -7,7 +7,7 @@
 } */
 
 body {
-    background-color: #FF2419;
+    background-color: var(--colorFondo);
 }
 
 /* ....................................................... */
@@ -41,15 +41,16 @@ address {
 }
 /* link de telefono y correo */
 .comunicaciones {
-    color: #DFE0E0;
+    color: var(--colorTitulo);
 }
 /* link de telefono y correo en hover */
 .comunicaciones:hover {
     text-decoration: none;
+    color: #FF3C32;
 }
 /* descripccion */
 .texte-description {
-    color: #DFE0E0;
+    color: var(--colorTitulo);
 }
 
 /* --------------------- */

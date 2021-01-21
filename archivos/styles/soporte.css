@@ -44,6 +44,7 @@ h1, h2 {
 /* contacto de numero de telefono hover */
 .contact:hover {
     text-decoration: none;
+    color: #FF3C32;
 }
 
 /* ----------------------------------------------- */
@@ -133,4 +134,32 @@ h2 {
     .redes-social-media img {
         width: 10%;
     }
+}
+
+.container-coment {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-de-perfil-coment {
+    border: 1px solid #282D31;
+    height: 3rem;
+    width: 2.6rem;
+}
+
+.comentario {
+    border: 1px solid #282D31;
+    margin-left: 1rem;
+    height: 3rem;
+    width: 20rem;
+}
+
+.boton-de-compartir {
+    border: 1px solid #282D31;
+    background-color: #69e083;
+    margin-left: 1rem;
+    width: 3rem;
+    height: 3rem;
 }

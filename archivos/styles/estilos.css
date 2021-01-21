@@ -13,7 +13,7 @@
     --colorBanner: #04355e;
     --colorFondo: #FAFDFF;
     --colorTitulo: #444749;
-    --colorIconoServicios: #FF2419;
+    --colorIconoServicios: #FF3C32;
 }
 
 /* @media (prefers-color-scheme : dark) {
@@ -53,6 +53,10 @@ body {
     height: 100%;
 }
 
+
+.about-section {
+    background-color: #FF3C32;
+}
 
 
 
