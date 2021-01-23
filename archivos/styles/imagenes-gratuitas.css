@@ -13,6 +13,15 @@ body{
 /* .............................................. */
 
 
+.s-shadow-bottom,
+.blogs {
+    width: 60%;
+    margin: auto;
+}
+
+.poster-namw {
+    margin: 3rem auto;
+}
 
 
 

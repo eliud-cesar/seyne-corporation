@@ -10,44 +10,46 @@ const blog2 = new Imagenes("https://edteam-media.s3.amazonaws.com/courses/small/
 const elem = document.getElementById("blogs")
 
 
-function mostrarBlog(curso) {
-    const hijo = document.createElement("div")
-    // hijo.classList.add("blog-de-seyne")
+// function mostrarBlog(curso) {
+//     const hijo = document.createElement("div")
+//     // hijo.classList.add("blog-de-seyne")
     hijo.innerHTML = `
     <article class="s-shadow-bottom">
     <!-- Póster y contenido -->
-    <div class="ed-grid m-grid-5 s-gap-2 m-pxy-2 s-bg-white s-radius-tl s-radius-tr">
-    <!-- Contenedor de la imagen -->
-    <div class="m-cols-2 img-container s-ratio-16-9 s-radius-tl s-radius-tr m-radius">
-        <img src="${curso.getMiniatura()}" alt="${curso.getTitle()}">
-        </div>
-    <!-- Contenido -->
-    <div class="s-pxy-2 m-pxy-0 m-cols-3">
-    <h3>${curso.getTitle()}</h3>
-    <p class="s-mb-0">${curso.getDescription()}</p>
+<div class="poster-namw">
+<div class="ed-grid m-grid-5 s-gap-2 m-pxy-2 s-bg-white s-radius-tl s-radius-tr">
+<!-- Contenedor de la imagen -->
+<div class="m-cols-2 img-container s-ratio-16-9 s-radius-tl s-radius-tr m-radius">
+    <img src="${curso.getMiniatura()}" alt="${curso.getTitle()}">
     </div>
-    </div>
-    <footer class="s-bg-grey s-cross-center s-pxy-2 s-radius-br s-radius-bl">
-    <!-- Define el ancho máximo de la imagen -->
-    <div class="s-10 m-5 s-mr-1">
-    <!--  imagen pequeña del creador -->
-    <div class="circle ">
-    <img  src="${curso.getImageCreator()}">
-    </div>
-    </div>
-    <!-- Create -->
-    <p class="s-mb-0">${curso.getCreador()}</p>
-    <!-- Botón -->
-    <a class="button s-to-right" href="${curso.getLinkdescription()}">Descargar</a>
-    </footer>
+<!-- Contenido -->
+<div class="s-pxy-2 m-pxy-0 m-cols-3">
+<h3>${curso.getTitle()}</h3>
+<p class="s-mb-0">${curso.getDescription()}</p>
+</div>
+</div>
+<footer class="s-bg-grey s-cross-center s-pxy-2 s-radius-br s-radius-bl">
+<!-- Define el ancho máximo de la imagen -->
+<div class="s-10 m-5 s-mr-1">
+<!--  imagen pequeña del creador -->
+<div class="circle ">
+<img  src="${curso.getImageCreator()}">
+</div>
+</div>
+<!-- Create -->
+<p class="s-mb-0">${curso.getCreador()}</p>
+<!-- Botón -->
+<a class="button s-to-right" href="${curso.getLinkdescription()}">Descargar</a>
+</footer>
+</div>
     </article>
     `
     
-    elem.appendChild(hijo)
-}
+    // elem.appendChild(hijo)
+// }
 
-mostrarBlog(blog1)
-mostrarBlog(blog2)
+// mostrarBlog(Imagenes.props)
+// mostrarBlog(blog2)
 
 
 
